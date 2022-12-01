@@ -1,0 +1,8 @@
+CREATE DATABASE quiz;
+USE quiz;
+
+CREATE TABLE usuario(
+	cd INT PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(120),
+	acertos INT
+);
