@@ -149,14 +149,16 @@
         style="margin-bottom: 2rem"
       />
       <div class="text">
-        <p id="red"><?php echo $_SESSION['nomeUser'];?>, primeira pergunta:</p>
-        <p id="yellow">Php é uma linguagem de programação?</p>
+        <p id="red"><?php echo $_SESSION['nomeUser'];?>, segunda pergunta:</p>
+        <p id="yellow">Em php, o que usamos para imprimir algo na tela?</p>
       </div>
       <form action="" method="post" class="form">
         <p></p>
         <select name="resp2" id="resp2">
-          <option value="falso">Falso</option>
-          <option value="verdadeiro">Verdadeiro</option>
+          <option value="consoleW">Console.Write</option>
+          <option value="echo">Echo</option>
+          <option value="alert">Alert</option>
+          <option value="consoleL">Console.log</option>
         </select>
         <button type="submit">Próxima</button>
       </form>

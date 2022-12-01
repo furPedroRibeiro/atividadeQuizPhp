@@ -149,14 +149,16 @@
         style="margin-bottom: 2rem"
       />
       <div class="text">
-        <p id="red">Primeira pergunta:</p>
-        <p id="yellow">Php é uma linguagem de programação?</p>
+        <p id="red"><?php echo $_SESSION['nomeUser'];?>, quarta pergunta:</p>
+        <p id="yellow">Quais destas funções são usadas para retornar o comprimento de uma string</p>
       </div>
       <form action="" method="post" class="form">
         <p></p>
         <select name="resp4" id="resp4">
-          <option value="falso">Falso</option>
-          <option value="verdadeiro">Verdadeiro</option>
+          <option value="objeto">Objeto</option>
+          <option value="nulo">Nulo</option>
+          <option value="strlen">strlen</option>
+          <option value="recurso">Recurso</option>
         </select>
         <button type="submit">Próxima</button>
       </form>

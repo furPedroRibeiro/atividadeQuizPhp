@@ -149,14 +149,17 @@
         style="margin-bottom: 2rem"
       />
       <div class="text">
-        <p id="red"><?php echo $_SESSION['nomeUser'];?>, primeira pergunta:</p>
-        <p id="yellow">Php é uma linguagem de programação?</p>
+        <p id="red"><?php echo $_SESSION['nomeUser'];?>, terceira pergunta:</p>
+        <p id="yellow">Em php, como criamos uma variável?</p>
       </div>
       <form action="" method="post" class="form">
         <p></p>
         <select name="resp3" id="resp3">
-          <option value="falso">Falso</option>
-          <option value="verdadeiro">Verdadeiro</option>
+          <option value="intVar">int variavel</option>
+          <option value="letVar">let variavel</option>
+          <option value="$">$variavel</option>
+          <option value="strVar">string variavel</option>
+          <option value="variavel">variavel</option>
         </select>
         <button type="submit">Próxima</button>
       </form>

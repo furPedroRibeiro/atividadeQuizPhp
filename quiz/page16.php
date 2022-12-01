@@ -149,12 +149,12 @@
         style="margin-bottom: 2rem"
       />
       <div class="text">
-        <p id="red">Primeira pergunta:</p>
-        <p id="yellow">Php é uma linguagem de programação?</p>
+        <p id="red"><?php echo $_SESSION['nomeUser'];?>, décima sexta pergunta:</p>
+        <p id="yellow">Um arquivo .php suporta escrita em html e a executa sem problemas</p>
       </div>
       <form action="" method="post" class="form">
         <p></p>
-        <select name="resp316" id="resp16">
+        <select name="resp16" id="resp16">
           <option value="falso">Falso</option>
           <option value="verdadeiro">Verdadeiro</option>
         </select>

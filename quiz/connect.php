@@ -10,7 +10,6 @@
   }
 
   /* RESPOSTAS DAS PERGUNTAS */
-  $_SESSION['acertos'] = 0;
   $_SESSION['quest1'] = "verdadeiro";
   $_SESSION['quest2'] = "echo";
   $_SESSION['quest3'] = "$";

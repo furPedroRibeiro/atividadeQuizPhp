@@ -149,8 +149,8 @@
         style="margin-bottom: 2rem"
       />
       <div class="text">
-        <p id="red">Primeira pergunta:</p>
-        <p id="yellow">Php é uma linguagem de programação?</p>
+        <p id="red"><?php echo $_SESSION['nomeUser'];?>, nona pergunta:</p>
+        <p id="yellow">Para iniciar uma sessão em php, usamos "session_start()"</p>
       </div>
       <form action="" method="post" class="form">
         <p></p>

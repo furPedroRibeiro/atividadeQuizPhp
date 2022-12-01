@@ -149,14 +149,16 @@
         style="margin-bottom: 2rem"
       />
       <div class="text">
-        <p id="red">Primeira pergunta:</p>
-        <p id="yellow">Php é uma linguagem de programação?</p>
+        <p id="red"><?php echo $_SESSION['nomeUser'];?>, décima primeira pergunta:</p>
+        <p id="yellow">É possível escrever em html dentro do php através do:</p>
       </div>
       <form action="" method="post" class="form">
         <p></p>
         <select name="resp11" id="resp11">
-          <option value="falso">Falso</option>
-          <option value="verdadeiro">Verdadeiro</option>
+          <option value="include">include</option>
+          <option value="echo">echo</option>
+          <option value="alert">alert</option>
+          <option value="session">session_start()</option>
         </select>
         <button type="submit">Próxima</button>
       </form>

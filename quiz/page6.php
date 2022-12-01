@@ -149,8 +149,8 @@
         style="margin-bottom: 2rem"
       />
       <div class="text">
-        <p id="red">Primeira pergunta:</p>
-        <p id="yellow">Php é uma linguagem de programação?</p>
+        <p id="red"><?php echo $_SESSION['nomeUser'];?>, sexta pergunta:</p>
+        <p id="yellow">Em php, podemos manipular e enviar comandos para o banco de dados</p>
       </div>
       <form action="" method="post" class="form">
         <p></p>

@@ -1,5 +1,6 @@
 <?php
   include('connect.php');
+  $_SESSION['acertos'] = 0;
   if(isset($_POST['nome'])){
     $_SESSION['nomeUser'] = $_POST['nome'];
     header('location: page1.php');

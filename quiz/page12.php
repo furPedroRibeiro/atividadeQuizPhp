@@ -149,8 +149,8 @@
         style="margin-bottom: 2rem"
       />
       <div class="text">
-        <p id="red">Primeira pergunta:</p>
-        <p id="yellow">Php é uma linguagem de programação?</p>
+        <p id="red"><?php echo $_SESSION['nomeUser'];?>, décima segunda pergunta:</p>
+        <p id="yellow">Para criar uma variável que possa ser utilizada em variás páginas, podemos escrever "$_SESSION = valor;"</p>
       </div>
       <form action="" method="post" class="form">
         <p></p>

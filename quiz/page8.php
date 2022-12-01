@@ -149,14 +149,14 @@
         style="margin-bottom: 2rem"
       />
       <div class="text">
-        <p id="red">Primeira pergunta:</p>
-        <p id="yellow">Php é uma linguagem de programação?</p>
+        <p id="red"><?php echo $_SESSION['nomeUser'];?>, oitava pergunta:</p>
+        <p id="yellow">Como é feito um comentário em php?</p>
       </div>
       <form action="" method="post" class="form">
         <p></p>
         <select name="resp8" id="resp8">
-          <option value="falso">Falso</option>
-          <option value="verdadeiro">Verdadeiro</option>
+          <option value="/*">/*Comentario*/</option>
+          <option value="//">//comentario</option>
         </select>
         <button type="submit">Próxima</button>
       </form>

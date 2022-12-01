@@ -149,14 +149,14 @@
         style="margin-bottom: 2rem"
       />
       <div class="text">
-        <p id="red">Primeira pergunta:</p>
-        <p id="yellow">Php é uma linguagem de programação?</p>
+        <p id="red"><?php echo $_SESSION['nomeUser'];?>, quinta pergunta:</p>
+        <p id="yellow">Em php, o método POST é utilizado para enviar dados de um formulário através da url</p>
       </div>
       <form action="" method="post" class="form">
         <p></p>
         <select name="resp5" id="resp5">
-          <option value="falso">Falso</option>
           <option value="verdadeiro">Verdadeiro</option>
+          <option value="falso">Falso</option>
         </select>
         <button type="submit">Próxima</button>
       </form>
