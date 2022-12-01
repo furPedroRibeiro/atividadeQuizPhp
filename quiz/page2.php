@@ -149,7 +149,7 @@
         style="margin-bottom: 2rem"
       />
       <div class="text">
-        <p id="red">Primeira pergunta:</p>
+        <p id="red"><?php echo $_SESSION['nomeUser'];?>, primeira pergunta:</p>
         <p id="yellow">Php é uma linguagem de programação?</p>
       </div>
       <form action="" method="post" class="form">
