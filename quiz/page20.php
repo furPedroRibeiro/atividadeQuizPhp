@@ -1,9 +1,15 @@
 <?php
   include('connect.php');
+
+  if($_SESSION['acabou']==1){
+    header('location: pageFinal.php');
+  }
+
   if(isset($_POST['resp20'])){
     if($_POST['resp20'] == $_SESSION['quest20']){
       $_SESSION['acertos']++;
     }
+    $_SESSION['jogando'] = "inativo";
     header('location: pageFinal.php');
   } 
 ?>

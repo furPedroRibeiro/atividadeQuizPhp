@@ -1,8 +1,8 @@
 <?php
   session_start();
-  $user = 'root';
-  $pass = '';
-  $banco = 'quiz';
+  $user = 'id19941726_melbbss';
+  $pass = 'Pep-25maiozeroseis';
+  $banco = 'id19941726_quiz';
   $server = 'localhost';
   $conn = new mysqli($server, $user, $pass, $banco);
   if(!$conn){

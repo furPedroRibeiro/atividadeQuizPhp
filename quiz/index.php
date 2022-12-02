@@ -1,8 +1,12 @@
 <?php
   include('connect.php');
+  include('protect.php');
+
+  $_SESSION['acabou'] = "0";
   $_SESSION['acertos'] = 0;
   if(isset($_POST['nome'])){
     $_SESSION['nomeUser'] = $_POST['nome'];
+    $_SESSION['jogando'] = "ativo";
     header('location: page1.php');
   }
 ?>

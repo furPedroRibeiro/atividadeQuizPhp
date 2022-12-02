@@ -1,7 +1,7 @@
 <?php
   include('connect.php');
   if(isset($_POST['resp11'])){
-    if($_POST['resp11'] == $_SESSION['ques11']){
+    if($_POST['resp11'] == $_SESSION['quest11']){
       $_SESSION['acertos']++;
     }
     header('location: page12.php');
